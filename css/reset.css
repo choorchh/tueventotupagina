@@ -1,9 +1,12 @@
 *{
     text-align: center;
+    background: rgb(246, 246, 246);
+    
 }
 .titulo{
     font-family: "Great Vibes", sans-serif;
     font-size: 3rem;
+    color: rgb(182, 160, 37);
 }
 .divisor__corazones{
      margin: 2rem 2rem;

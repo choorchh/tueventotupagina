@@ -15,8 +15,8 @@
    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
    // Muestra el tiempo restante en el elemento HTML
-   document.getElementById("reloj").innerHTML = days + "d " + hours + "h "
-   + minutes + "m " + seconds + "s ";
+   document.getElementById("reloj").innerHTML = days + " Días " + hours + " Hs "
+   + minutes + " Min " + seconds + " Seg ";
 
    // Si la cuenta regresiva ha terminado, muestra un mensaje
    if (distance < 0) {
@@ -25,10 +25,10 @@
    }
  }, 1000);
 
-const formatoHora = (hours) =>{
-    if(hours < 10){
-        hours = `0${hours}`;
+const formatoHora = (horas) =>{
+    if(horas < 10){
+        horas = `0${horas}`;
     }
-    return hours;
+    return horas;
 }
 setInterval(mostrarReloj, 1000);
