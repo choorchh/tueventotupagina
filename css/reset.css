@@ -7,10 +7,10 @@
 }
 .divisor__corazones{
      margin: 2rem 2rem;
-    max-width: 100vw;
+    max-width: 80vw;
 }
 .divisor__corazones img{
-    width: 30rem;
+    max-width: 100%;
 }
 .btn{
     border-radius: 10rem;
