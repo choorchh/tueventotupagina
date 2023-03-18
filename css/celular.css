@@ -3,9 +3,13 @@
     .header{
         display: flex;
         align-items: center;
-        margin-bottom: 2rem;
         padding: 1rem 1rem;
+    }
+    .header h1{
+        font-size: 2.05rem;
         
+        font-family: "Great Vibes", sans-serif;
+        color: rgb(55, 139, 55);
     }
     .header img{
         max-width: 100vw;
@@ -18,6 +22,11 @@
         margin-bottom: 2rem;
         overflow: hidden;
         
+    }
+    .titulo__contador--titulo{
+        font-size: 20px;
+        color: rgb(55, 139, 55);
+        font-weight: bolder;
     }
     .titulo__contador--titulo,.titulo__contador--contenido, .reloj{
         margin-bottom: 2rem;
@@ -50,10 +59,14 @@
     .ubicacion__titulo,
      .ubicacion__fiesta,
      .asistencia__titulo,
-     
+
     .horario, .ubicacion__ceremonia, .ubicacion__fiesta, .asistencia, .regalo, .canciones{
-        line-height: 2.5rem;
+        line-height: 1.7rem;
         margin-bottom: 3rem;
+    }
+    .asistencia__titulo{
+        line-height: 2rem;
+        
     }
     .asistencia, .regalo, .canciones__contenido {
         margin: 4rem;

@@ -19,10 +19,11 @@
 .btn{
     border-radius: 10rem;
     border: none;
-    width: 7rem;
-    height: 2rem;
-    color: gold;
-    background: black;
+    width: 8rem;
+    height: 2.5rem;
+    color: #fff;
+    background: rgb(182, 160, 37);
+    margin-top: 1rem;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
