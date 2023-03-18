@@ -47,7 +47,7 @@
         margin-top: 2rem;
     }
     .horario, .ubicacion__ceremonia, .ubicacion__fiesta, .asistencia, .regalo, .canciones{
-        line-height: 1.5rem;
+        line-height: 2.5rem;
         margin-bottom: 3rem;
     }
     .asistencia, .regalo, .canciones__contenido {
