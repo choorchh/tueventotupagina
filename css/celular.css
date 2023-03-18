@@ -23,7 +23,7 @@
         margin-bottom: 2rem;
     }
     .reloj{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .fecha{
         display: flex;
@@ -46,6 +46,11 @@
     .ubicacion__btn{
         margin-top: 2rem;
     }
+    .horario__titulo, 
+    .ubicacion__titulo,
+     .ubicacion__fiesta,
+     .asistencia__titulo,
+     
     .horario, .ubicacion__ceremonia, .ubicacion__fiesta, .asistencia, .regalo, .canciones{
         line-height: 2.5rem;
         margin-bottom: 3rem;
