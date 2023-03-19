@@ -1,8 +1,12 @@
 *{
-    text-align: center;
-    background: rgb(246, 246, 246);
-    
+    text-align: center;    
 }
+
+/* body{
+    background-image: url(../images/background.png);
+    background-position: center;
+} */
+
 .titulo{
     font-family: "Great Vibes", sans-serif;
     font-size: 3rem;

@@ -1,4 +1,5 @@
  // Fecha y hora de finalización de la cuenta regresiva (12 de junio de 2024 a las 00:00:00)
+ 
  var countDownDate = new Date("June 12, 2024 00:00:00").getTime();
 
  // Actualiza el tiempo restante cada segundo
