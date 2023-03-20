@@ -116,13 +116,17 @@
     }
     /* footer */
     .footer__titulo{
-        margin-bottom: 2rem;
+        padding: 2rem 0;
     }
     .footer_principal img{
         max-width: 90vw;
+        margin-bottom: 2rem;
     }
-    .formulario{
-        width: 80vw;
-        height: 100%;
+    .footer__nuestro{
+        font-size: .6rem;
+    }
+    .footer__nuestro a{
+        background: none;
+        color: goldenrod;
     }
 }
