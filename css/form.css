@@ -32,11 +32,13 @@
     main{
         padding-top: 25px;
     }
-    .formulario{
-        width: 80vw;
+
+    .formulario {
+        width: 100%;
         height: 1200px;
-        padding: 1rem 0 ;
+        padding: 1rem 0;
     }
+
     .formulario__btn{
         margin-bottom: 2rem;
     }
