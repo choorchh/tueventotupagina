@@ -54,10 +54,11 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: rgb(245, 245, 243);
+        background-image: url(../images/background-aj.png);
+        padding: 1rem 0 2rem 0;
     }
     .fecha img{
-        max-width: 100vw;
+        max-width: 80vw;
         overflow: hidden;
     }
     .fecha__btn{
@@ -115,6 +116,11 @@
         margin: 4rem;
     }
     /* footer */
+
+    footer {
+        background-image: url(../images/background-aj.png);
+    }
+
     .footer__titulo{
         padding: 2rem 0;
     }
