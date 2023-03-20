@@ -106,7 +106,9 @@
     }
     .asistencia__titulo{
         line-height: 2rem;
-        
+    }
+    .codigo__vestimenta--titulo{
+        padding-bottom: 1rem;
     }
     .asistencia, .regalo, .canciones__contenido {
         margin: 4rem;
