@@ -32,10 +32,16 @@
     .form__canciones{
         width: 80vw;
         height: 590px;
-        padding: 1rem 0 ;
+        padding: 1rem 1rem ;
     }
     .formulario__btn{
         margin-bottom: 2rem;
     }
-    
+    .footer__nuestro{
+        font-size: .6rem;
+    }
+    .footer__nuestro a{
+        background: none;
+        color: goldenrod;
+    }
 }

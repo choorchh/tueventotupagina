@@ -37,4 +37,11 @@
     .formulario__btn{
         margin-bottom: 2rem;
     }
+    .footer__nuestro{
+        font-size: .6rem;
+    }
+    .footer__nuestro a{
+        background: none;
+        color: goldenrod;
+    }
 }
