@@ -33,3 +33,9 @@ const formatoHora = (horas) =>{
     return horas;
 }
 setInterval(mostrarReloj, 1000);
+
+// simpleparallax background
+const background = document.getElementsByTagName('body');
+background.style.backgroundImage
+
+new simpleParallax(background, {scale: 5});

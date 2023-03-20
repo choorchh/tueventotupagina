@@ -1,7 +1,7 @@
 @media screen and (max-width:768px){
     /* background img para el body */
     body {
-        background-image: url(/images/background.png);
+        background-color: black;
         background-size: 100vw 150vh;
         background-repeat: no-repeat;
     }
