@@ -1,28 +1,44 @@
 @media screen and (max-width:768px){
+    /* background img para el body */
+    body {
+        background-image: url(/images/background3.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
     /* header */
     .header{
         display: flex;
         align-items: center;
-        padding: 1rem 1rem;
+        padding-left: 2rem;
+        background-color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 20;
+        gap: 2rem;
     }
+
     .header h1{
         font-size: 2.05rem;
-        
         font-family: "Great Vibes", sans-serif;
         color: rgb(55, 139, 55);
     }
+
     .header img{
-        max-width: 100vw;
-        width: 4rem;
-        margin-right: 1rem;
+        max-width: 4rem;
     }
+
     /* main */
-    .titulo__contador img{
-        max-width: 100vw;
-        margin-bottom: 2rem;
-        overflow: hidden;
-        
+    main{
+        padding-top: 7rem;
     }
+
+    .titulo__contador img{
+        max-width: 333px;
+    }
+
     .titulo__contador--titulo{
         font-size: 20px;
         color: rgb(55, 139, 55);
@@ -55,14 +71,34 @@
     .ubicacion__btn{
         margin-top: 2rem;
     }
+
+    .horario__sect{
+        background-image: url(../images/background-circular2.png);
+        background-size: 100% 150%;
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-position-x: center;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.horario{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+    }
+
     .horario__titulo, 
     .ubicacion__titulo,
      .ubicacion__fiesta,
      .asistencia__titulo,
-
     .horario, .ubicacion__ceremonia, .ubicacion__fiesta, .asistencia, .regalo, .canciones, .codigo__vestimenta{
         line-height: 1.7rem;
-        margin-bottom: 3rem;
+        padding: 2rem 0;
     }
     .codigo__vestimenta--img{
         display: flex;
