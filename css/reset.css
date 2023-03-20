@@ -1,7 +1,7 @@
 *{
     text-align: center;
     background: rgb(246, 246, 246);
-    
+    text-decoration: none;
 }
 .titulo{
     font-family: "Great Vibes", sans-serif;
@@ -16,7 +16,7 @@
 .divisor__corazones img{
     max-width: 100%;
 }
-.btn{
+.btn,a{
     border-radius: 10rem;
     border: none;
     width: 8rem;

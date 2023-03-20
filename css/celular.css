@@ -60,9 +60,13 @@
      .ubicacion__fiesta,
      .asistencia__titulo,
 
-    .horario, .ubicacion__ceremonia, .ubicacion__fiesta, .asistencia, .regalo, .canciones{
+    .horario, .ubicacion__ceremonia, .ubicacion__fiesta, .asistencia, .regalo, .canciones, .codigo__vestimenta{
         line-height: 1.7rem;
         margin-bottom: 3rem;
+    }
+    .codigo__vestimenta--img{
+        display: flex;
+        justify-content: center;
     }
     .asistencia__titulo{
         line-height: 2rem;
