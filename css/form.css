@@ -10,7 +10,7 @@
     .header{
         display: flex;
         align-items: center;
-        background-color: white;
+        background-image: url(../images/background-aj.png);
         position: fixed;
         top: 0;
         left: 0;
@@ -29,9 +29,12 @@
         max-width: 4rem;
     }
     /* main */
+    main{
+        padding-top: 25px;
+    }
     .formulario{
         width: 80vw;
-        height: 1100px;
+        height: 1200px;
         padding: 1rem 0 ;
     }
     .formulario__btn{

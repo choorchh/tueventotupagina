@@ -10,7 +10,7 @@
     .header{
         display: flex;
         align-items: center;
-        background-color: white;
+        background-image: url(../images/background-aj.png);
         position: fixed;
         top: 0;
         left: 0;
@@ -29,6 +29,9 @@
         max-width: 4rem;
     }
     /* main */
+    main{
+        padding-top: 30px;
+    }
     .form__canciones{
         width: 80vw;
         height: 590px;
