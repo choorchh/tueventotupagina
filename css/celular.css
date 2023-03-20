@@ -121,5 +121,8 @@
     .footer_principal img{
         max-width: 90vw;
     }
-    
+    .formulario{
+        width: 80vw;
+        height: 100%;
+    }
 }
