@@ -45,17 +45,21 @@
         color: rgb(55, 139, 55);
         font-weight: bolder;
     }
+
     .titulo__contador--titulo,.titulo__contador--contenido, .reloj{
         margin-bottom: 2rem;
     }
+
     .reloj{
         font-size: 1.5rem;
     }
+
     .fecha{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     .fecha img{
         max-width: 100vw;
         overflow: hidden;
@@ -94,5 +98,10 @@
     }
     .footer_principal img{
         max-width: 90vw;
+    }
+
+    .ubicacion__mapa {
+        width: 50vw;
+        height: 50vh;
     }
 }
