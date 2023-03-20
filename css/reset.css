@@ -11,14 +11,18 @@
     font-family: "Great Vibes", sans-serif;
     font-size: 3rem;
     color: rgb(182, 160, 37);
-    margin-bottom: 2rem;
 }
 .divisor__corazones{
-     margin: 2rem 2rem;
-    max-width: 80vw;
+    background-color: white;
+    overflow: hidden;
+    max-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 .divisor__corazones img{
-    max-width: 100%;
+    max-width: 80%;
 }
 .btn{
     border-radius: 10rem;
@@ -29,6 +33,7 @@
     background: rgb(182, 160, 37);
     margin-top: 1rem;
 }
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
