@@ -45,7 +45,7 @@
         font-weight: bolder;
     }
     .titulo__contador--titulo,.titulo__contador--contenido, .reloj{
-        margin-bottom: 2rem;
+        margin-bottom: .5rem;
     }
     .reloj{
         font-size: 1.5rem;
