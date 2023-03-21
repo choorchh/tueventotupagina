@@ -100,11 +100,14 @@
      .asistencia__titulo,
     .horario, .ubicacion__ceremonia, .ubicacion__fiesta, .asistencia, .regalo, .canciones, .codigo__vestimenta{
         line-height: 1.7rem;
-        padding: 2rem 0;
+        padding: 1rem 0;
     }
     .codigo__vestimenta--img{
         display: flex;
         justify-content: center;
+    }
+    .carrusel img{
+        width: 100vw;
     }
     .asistencia__titulo{
         line-height: 2rem;
