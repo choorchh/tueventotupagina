@@ -10,7 +10,7 @@
     .header{
         display: flex;
         align-items: center;
-        background-color: white;
+        background-image: url(../images/background-aj.png);
         position: fixed;
         top: 0;
         left: 0;
@@ -82,7 +82,7 @@
         background-repeat: no-repeat;
         background-position-y: center;
         background-position-x: center;
-        height: 200px;
+        height: 270px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -97,7 +97,6 @@
     }
 
     .horario__titulo, 
-    .ubicacion__titulo,
      .ubicacion__fiesta,
      .asistencia__titulo,
     .horario, .ubicacion__ceremonia, .ubicacion__fiesta, .asistencia, .regalo, .canciones, .codigo__vestimenta{
@@ -116,7 +115,7 @@
         padding-bottom: 1rem;
     }
     .asistencia, .regalo, .canciones__contenido {
-        margin: 4rem;
+        margin:0 4rem;
     }
     .canciones, .asistencia__sect, .regalo__sect{
         background-image: url(../images/background3.png);

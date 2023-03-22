@@ -47,6 +47,6 @@
     }
     .footer__nuestro a{
         background: none;
-        color: goldenrod;
+        color: goldenrod !important;
     }
 }

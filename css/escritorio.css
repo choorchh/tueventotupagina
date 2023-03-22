@@ -37,11 +37,11 @@
     }
 
     .titulo__contador img{
-        max-width: 333px;
+        max-width: 533px;
     }
 
     .titulo__contador--titulo{
-        font-size: 20px;
+        font-size: 30px;
         color: rgb(55, 139, 55);
         font-weight: bolder;
     }
@@ -68,6 +68,7 @@
 
     .btn--calendar{
         background-color: rgb(182, 160, 37);
+        color: #fff;
     }
 
     .ubicacion__ceremonia, .ubicacion__fiesta{
@@ -94,6 +95,11 @@
     .asistencia, .regalo, .canciones__contenido {
         margin: 4rem;
     }
+    .canciones, .asistencia__sect, .regalo__sect{
+        background-image: url(../images/background2.png);
+        background-size: cover;
+        background-repeat: repeat;
+    }
     /* footer */
     .footer__titulo{
         margin-bottom: 2rem;
@@ -105,5 +111,12 @@
     .ubicacion__mapa {
         width: 50vw;
         height: 50vh;
+    }
+    .footer__nuestro{
+        padding-top: 3rem;
+    }
+    .footer__nuestro a{
+        background: none;
+        color: goldenrod !important;
     }
 }
