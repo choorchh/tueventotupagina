@@ -50,3 +50,60 @@
         color: goldenrod !important;
     }
 }
+
+/* media para witdh superior a 768 */
+@media screen and (min-width: 768px) {
+    /* background img para el body */
+    body {
+        background-image: url(/images/background3.png);
+        background-size: 100vw 100vh;
+        background-repeat: no-repeat;
+    }
+    /* header */
+    .header{
+        display: flex;
+        align-items: center;
+        padding-left: 2rem;
+        background-color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 20;
+        gap: 2rem;
+    }
+
+    .header h1{
+        font-size: 2.05rem;
+        font-family: "Great Vibes", sans-serif;
+        color: rgb(55, 139, 55);
+    }
+
+    .header img{
+        max-width: 4rem;
+    }
+/* main */
+    main{
+        padding-top: 30px;
+    }
+    .contenido{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .formulario{
+        width: 80vw;
+        height: 790px;
+        padding: 1rem 1rem ;
+    }
+    .formulario__btn{
+        margin-bottom: 2rem;
+        width: 25vw;
+    }
+/* footer */
+    .footer__nuestro a{
+        background: none;
+        color: goldenrod !important;
+    }
+}
