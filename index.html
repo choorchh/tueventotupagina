@@ -5,20 +5,36 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Anto & John</title>
+
+        <!-- FONTs -->
         <link
             href="https://fonts.googleapis.com/css2?family=Coming+Soon&family=Great+Vibes&display=swap"
             rel="stylesheet"
         />
+        <!-- CSS -->
         <link rel="stylesheet" href="css/celular.css" />
         <link rel="stylesheet" href="css/escritorio.css" />
         <link rel="stylesheet" href="css/reset.css" />
-
-
         <!-- logo web -->
         <link rel="icon" href="images/logo2.png" />
-         <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <!-- Calendar Add -->
+        <script type="text/javascript" src="https://cdn.addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
+        <!-- Calendar Setting -->
+        <script type="text/javascript">
+            window.addeventasync = function(){
+                addeventatc.settings({
+                    appleical  : {show:true, text:"Apple Calendar"},
+                    google     : {show:true, text:"Google"},
+                    office365  : {show:false, text:"Office 365 <em>(online)</em>"},
+                    outlook    : {show:true, text:"Outlook"},
+                    outlookcom : {show:false, text:"Outlook.com <em>(online)</em>"},
+                    yahoo      : {show:false, text:"Yahoo <em>(online)</em>"},
+                    mouse : true
+                });
+            };
+        </script>
     </head>
     <body>
         <header class="header">
@@ -84,10 +100,16 @@
             </section>
             <section class="fecha">
                 <img src="./images/icons8-luna-de-miel-100.png" alt="">
-                <img src="./images/A-J-nobackground.png" alt="fecha del casamiento" />
-                <button onclick="createEvent()" class="fecha__btn boton">
-                    <!-- <a target="_blank" href="https://calendar.google.com/calendar/"></a> -->
-                    Agendar</button>
+                <img src="./images/A-J-nobackground.png" alt="fecha del casamiento"/>
+                <div title="Add to Calendar" class="addeventatc btn--calendar" data-dropdown-y="down">
+                    Agendar
+                    <span class="start">04/04/2023 08:00 AM</span>
+                    <span class="end">04/04/2023 10:00 AM</span>
+                    <span class="timezone">America/Buenos_Aires</span>
+                    <span class="title">Summary of the event</span>
+                    <span class="description">Description of the event</span>
+                    <span class="location">Location of the event</span>
+                </div>
             </section>
             <section class="divisor__corazones">
                 <img src="./images/divisor-nobackground.png" alt="divisor" />
@@ -270,7 +292,8 @@
         <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
         <script src="./js/script.js"></script>
         <script src="./js/carousel.js"></script>
-            <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        
     </body>
 </html>
