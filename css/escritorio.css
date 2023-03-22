@@ -63,6 +63,13 @@
     }
 
     /* fecha */
+
+    section.fecha {
+        background-image: url(../images/background-aj.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
     .fecha{
         display: flex;
         flex-direction: column;
