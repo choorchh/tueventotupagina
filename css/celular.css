@@ -99,7 +99,10 @@
     .horario__titulo, 
      .ubicacion__fiesta,
      .asistencia__titulo,
-    .horario, .ubicacion__ceremonia, .ubicacion__fiesta, .asistencia, .regalo, .canciones, .codigo__vestimenta{
+     .horario,
+     .ubicacion__ceremonia, 
+     .ubicacion__fiesta,
+     .asistencia, .codigo__vestimenta, .regalo, .canciones, .codigo__vestimenta{
         line-height: 1.7rem;
         padding: 1rem 0;
     }

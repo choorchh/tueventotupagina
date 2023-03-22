@@ -6,6 +6,14 @@
         background-size: 100vw 100vh;
         background-repeat: no-repeat;
     }
+    .titulo{
+        font-size: 4rem !important;
+        padding: 2rem 0;
+    }
+    .parrafo{
+        font-size: 1.3rem;
+        padding: 2rem 0;
+    }
 
     /* header */
     .header{
@@ -83,7 +91,7 @@
     .ubicacion__titulo,
      .ubicacion__fiesta,
      .asistencia__titulo,
-
+    .codigo__vestimenta,
     .horario, .ubicacion__ceremonia, .ubicacion__fiesta, .asistencia, .regalo, .canciones{
         line-height: 1.7rem;
         margin-bottom: 3rem;
@@ -94,6 +102,9 @@
     }
     .asistencia, .regalo, .canciones__contenido {
         margin: 4rem;
+    }
+    .asistencia__contenido, .regalo__contenido{
+        padding:0 15rem;
     }
     .canciones, .asistencia__sect, .regalo__sect{
         background-image: url(../images/background2.png);
