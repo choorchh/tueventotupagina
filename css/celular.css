@@ -50,6 +50,8 @@
     .reloj{
         font-size: 1.5rem;
     }
+
+    /* fecha */
     .fecha{
         display: flex;
         flex-direction: column;
