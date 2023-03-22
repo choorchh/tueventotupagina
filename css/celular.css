@@ -106,9 +106,7 @@
         display: flex;
         justify-content: center;
     }
-    .carrusel img{
-        width: 100vw;
-    }
+
     .asistencia__titulo{
         line-height: 2rem;
     }
@@ -117,6 +115,11 @@
     }
     .asistencia, .regalo, .canciones__contenido {
         margin: 4rem;
+    }
+    .canciones, .asistencia__sect, .regalo__sect{
+        background-image: url(../images/background3.png);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     /* footer */
 
@@ -136,6 +139,6 @@
     }
     .footer__nuestro a{
         background: none;
-        color: goldenrod;
+        color: goldenrod !important;
     }
 }
